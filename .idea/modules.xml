@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assist/Assist.iml" filepath="$PROJECT_DIR$/Assist/Assist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module001JavaBasics/Module001JavaBasics.iml" filepath="$PROJECT_DIR$/Module001JavaBasics/Module001JavaBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module007Class/Module007Class.iml" filepath="$PROJECT_DIR$/Module007Class/Module007Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module024UsefulClass/Module024UsefulClass.iml" filepath="$PROJECT_DIR$/Module024UsefulClass/Module024UsefulClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module035Exception/Module035Exception.iml" filepath="$PROJECT_DIR$/Module035Exception/Module035Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module040Collection/Module040Collection.iml" filepath="$PROJECT_DIR$/Module040Collection/Module040Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module048Generic/Module048Generic.iml" filepath="$PROJECT_DIR$/Module048Generic/Module048Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module055Map/Module055Map.iml" filepath="$PROJECT_DIR$/Module055Map/Module055Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module065Collections/Module065Collections.iml" filepath="$PROJECT_DIR$/Module065Collections/Module065Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module069File/Module069File.iml" filepath="$PROJECT_DIR$/Module069File/Module069File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module073FileIOStream/Module073FileIOStream.iml" filepath="$PROJECT_DIR$/Module073FileIOStream/Module073FileIOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module081BufferIOStream/Module081BufferIOStream.iml" filepath="$PROJECT_DIR$/Module081BufferIOStream/Module081BufferIOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module083IOStreamOrFileRAW/Module083IOStreamOrFileRAW.iml" filepath="$PROJECT_DIR$/Module083IOStreamOrFileRAW/Module083IOStreamOrFileRAW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module090BufferRAW/Module090BufferRAW.iml" filepath="$PROJECT_DIR$/Module090BufferRAW/Module090BufferRAW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module097SpecialStream/Module097SpecialStream.iml" filepath="$PROJECT_DIR$/Module097SpecialStream/Module097SpecialStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module109IOStreamInUse/Module109IOStreamInUse.iml" filepath="$PROJECT_DIR$/Module109IOStreamInUse/Module109IOStreamInUse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module114Thread/Module114Thread.iml" filepath="$PROJECT_DIR$/Module114Thread/Module114Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module123WebAndUDP/Module123WebAndUDP.iml" filepath="$PROJECT_DIR$/Module123WebAndUDP/Module123WebAndUDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module126TCP/Module126TCP.iml" filepath="$PROJECT_DIR$/Module126TCP/Module126TCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module133FunctionInterface/Module133FunctionInterface.iml" filepath="$PROJECT_DIR$/Module133FunctionInterface/Module133FunctionInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module143Stream/Module143Stream.iml" filepath="$PROJECT_DIR$/Module143Stream/Module143Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module152ClassLoaderAndReflection/Module152ClassLoaderAndReflection.iml" filepath="$PROJECT_DIR$/Module152ClassLoaderAndReflection/Module152ClassLoaderAndReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module163JavaModulesSort/Module163JavaModulesSort.iml" filepath="$PROJECT_DIR$/Module163JavaModulesSort/Module163JavaModulesSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module166AWT/Module166AWT.iml" filepath="$PROJECT_DIR$/Module166AWT/Module166AWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module181Swing/Module181Swing.iml" filepath="$PROJECT_DIR$/Module181Swing/Module181Swing.iml" />
+    </modules>
+  </component>
+</project>

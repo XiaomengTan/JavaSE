@@ -1,0 +1,39 @@
+字节流
+
+-1判断结束
+可以复制任何数据
+Buffered-封装了File-
+在File-开启追加写入a
+内容直接进入文件，不需要刷新
+
+                      InputStream                                                           OutputStream
+
+FileInputStream                        BufferedInputStream     FileOutputStream                                          BufferedOutputStream
+int read()//一次一个字节                                        void write(int by)//一次一个字节
+int read(byte[] bys)//一次一个字节数组                          void write(byte[] bys,int index,int len)//一次一个字节数组
+
+/*****************************************************************************************************************************************************/
+字符流
+
+字节流+编码
+普通方法仍用-1判断结束，特有方法用null判断结束
+只能复制文本数据
+-Stream-封装了File-
+Buffered-封装了FileC-和(-Stream-封装File-)
+在FileC-开启追加写入
+内容不能直接到文件，需要刷新缓冲区
+
+                          Reader                                                                                         Writer
+
+InputStreamReader                        BufferedReader                         OutputStreamWriter                                           BufferedWriter
+FileReader//不能处理编码问题              String readLine()//一次一行字符串        FileWriter//不能处理编码问题                                  void newLine()//换行
+int read()//一次一个字符                                                         void write(int by)//一次一个字符                              void write(String line)//一次一个字符串
+int read(char[] chs)//一次一个字符数组                                            void write(byte[] bys,int index,int len)//一次一个字符数组
+
+/*******************************************************************************************************************************************************/
+
+InputStream->System.in  PrintStream->System.out
+
+PrintStream//抽象 PrintWriter//具体
+
+InputStream->ObjectInputStream  OutputStream->ObjectOutputStream

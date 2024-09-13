@@ -1,0 +1,27 @@
+package Test130TxtToTxt;
+
+import java.io.*;
+import java.net.Socket;
+
+public class Client {
+    public static void main(String[] args) throws IOException {
+        //创建客户端的Socket对象(Socket)
+        Socket s = new Socket("10.202.0.24", 10000);
+
+        //封装文本文件数据
+        BufferedReader br = new BufferedReader(new FileReader("TestOfBili\\src\\TXTsort\\Test135in.txt"));
+
+        //封装输出流写数据
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+        String line;
+        while ((line = br.readLine())!=null){
+            bw.write(line);
+            bw.newLine();
+            bw.flush();
+        }
+
+        //释放资源
+        bw.close();//注意
+        s.close();
+    }
+}
